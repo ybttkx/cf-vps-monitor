@@ -1,0 +1,11 @@
+name = "cf-vps-monitor"
+main = "worker.js"
+compatibility_date = "2024-04-01"
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vps-monitor-db"
+database_id = "bc9c7a55-f1b7-4da2-809b-6fff3b982bdf"
